@@ -8,6 +8,7 @@ This plugin helps you build exciting AR/VR Stereoscopic 3D Android games and app
 The Moverio Unity Plugin includes the following features:
 
 *Camera Rig Prefab that switches seemlessly between Stereoscopic 3D and 2D content with the hooks to activate the Stereoscopic mode on the Moverios (also works with Google Cardboard) 
+
 *Camera Rig also now has Automatic Head Tracking!
 
 *Control over the Moverio's Glasses Brightness
