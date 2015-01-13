@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[AddComponentMenu("Moverio/MoverioCameraController")]
+
 public class MoverioCameraController : MonoBehaviour {
 
 	private static MoverioCameraController _instance;

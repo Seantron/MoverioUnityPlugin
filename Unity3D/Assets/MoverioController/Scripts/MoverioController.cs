@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+
 public enum MoverioEventType
 {
 	Display3DOn,
@@ -25,6 +27,8 @@ public enum MoverioSensorType
 	SensorHeadTracking,
 	SensorHandController
 }
+
+[AddComponentMenu("Moverio/MoverioController")]
 
 public class MoverioController : MonoBehaviour {
 	
