@@ -328,6 +328,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 651356119}
   - 114: {fileID: 651356118}
+  - 114: {fileID: 651356117}
   m_Layer: 0
   m_Name: MoverioController
   m_TagString: Untagged
@@ -335,6 +336,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &651356117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: f1e31a9764fed4535a78d95de2f22f56,
+    type: 2}
+  m_PrefabInternal: {fileID: 1879051987}
+  m_GameObject: {fileID: 651356116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e131e10c390064ad9b8f8dd07c6823fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &651356118
 MonoBehaviour:
   m_ObjectHideFlags: 0
