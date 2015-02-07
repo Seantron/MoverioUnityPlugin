@@ -40,6 +40,9 @@ public class MoverioBridge extends UnityPlayerActivity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+        
+       
+        
 		super.onCreate(savedInstanceState);
 		
 		mDisplayControl = new DisplayControl(this);

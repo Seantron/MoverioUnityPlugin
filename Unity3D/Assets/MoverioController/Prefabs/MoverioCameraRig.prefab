@@ -201,7 +201,7 @@ Camera:
     height: 1
   near clip plane: .100000001
   far clip plane: 10000
-  field of view: 75
+  field of view: 37.5
   orthographic: 0
   orthographic size: 100
   m_Depth: 0
@@ -233,7 +233,7 @@ Camera:
     height: 1
   near clip plane: .100000001
   far clip plane: 10000
-  field of view: 75
+  field of view: 37.5
   orthographic: 0
   orthographic size: 100
   m_Depth: 0

@@ -22,7 +22,9 @@ public class MoverioTutorialController : MonoBehaviour {
 		TextView.text = "Starting Dimmer";
 		
 		yield return new WaitForSeconds(3.0f);
-		
+
+
+
 		MoverioController.Instance.SetDisplayBrightness(10);
 		
 		TextView.text = "Brightness at 10!";
