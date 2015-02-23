@@ -73,6 +73,7 @@ NavMeshSettings:
     minRegionArea: 2
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
+    tileSizeHint: 0
   m_NavMesh: {fileID: 0}
 --- !u!1 &331398922
 GameObject:
@@ -284,7 +285,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 651356119}
   - 114: {fileID: 651356118}
-  - 114: {fileID: 651356117}
   m_Layer: 0
   m_Name: MoverioController
   m_TagString: Untagged
@@ -292,18 +292,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &651356117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: f1e31a9764fed4535a78d95de2f22f56,
-    type: 2}
-  m_PrefabInternal: {fileID: 1879051987}
-  m_GameObject: {fileID: 651356116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e131e10c390064ad9b8f8dd07c6823fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &651356118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -518,6 +506,7 @@ GameObject:
   - 4: {fileID: 1228675377}
   - 114: {fileID: 1228675378}
   - 81: {fileID: 1228675379}
+  - 114: {fileID: 1228675380}
   m_Layer: 0
   m_Name: MoverioCameraRig
   m_TagString: Untagged
@@ -563,6 +552,17 @@ AudioListener:
   m_PrefabInternal: {fileID: 1341085827}
   m_GameObject: {fileID: 1228675376}
   m_Enabled: 1
+--- !u!114 &1228675380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1228675376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e131e10c390064ad9b8f8dd07c6823fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1262942661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,7 +1092,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11400002, guid: f1e31a9764fed4535a78d95de2f22f56, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: f1e31a9764fed4535a78d95de2f22f56, type: 2}
   m_RootGameObject: {fileID: 651356116}
   m_IsPrefabParent: 0
