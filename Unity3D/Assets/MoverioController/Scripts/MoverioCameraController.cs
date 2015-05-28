@@ -32,6 +32,7 @@ public class MoverioCameraController : MonoBehaviour {
 
 	void Start()
 	{
+		LeftEyeCam.aspect = RightEyeCam.aspect = Screen.width / Screen.height * 2.0f;
 		SetPupillaryDistance(PupillaryDistance);
 	}
 
